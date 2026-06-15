@@ -30,3 +30,45 @@ gym-membership-management-system-main
 ├── main.py
 ├── requirements.txt
 └── README.md
+
+# Gym Membership Management System
+
+## Features
+
+- JWT Authentication
+- Member Management
+- Trainer Management
+- Subscription Management
+- Trainer Assignment
+- SQLite Database
+- Swagger Documentation
+
+## APIs
+
+### Authentication
+- POST /auth/register
+- POST /auth/login
+
+### Members
+- POST /members
+- GET /members
+- GET /members/{id}
+- PUT /members/{id}
+- DELETE /members/{id}
+
+### Trainers
+- POST /trainers
+- GET /trainers
+- PUT /trainers/{id}
+- DELETE /trainers/{id}
+
+### Subscriptions
+- POST /subscriptions
+- GET /subscriptions
+- GET /subscriptions/{id}
+
+### Trainer Assignment
+- POST /trainers/{trainer_id}/members/{member_id}
+- GET /trainers/{trainer_id}/members
+
+
